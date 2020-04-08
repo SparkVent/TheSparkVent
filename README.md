@@ -32,7 +32,7 @@ Provide a ventilator of last-resort for hospitals that have been overwhelmed by 
 ### Long term Goal
 Develop a ventilator that could be used in developing countries to help save lives.
 
-## 2x Ventilator Prototypes:
+## 2x Pressure Control Ventilator Prototypes:
 
 ## 1) Hinge Bellows, Anaesthetic Bag, 24DCV Industrial Solenoid Valves
 ![Hinge & Solenoid vent](images/hinge_bellows_solenoids_v0.1.png)
