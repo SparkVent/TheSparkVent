@@ -36,11 +36,11 @@ Develop a ventilator that could be used in developing countries to help save liv
 
 Based loosely on the very elegant [Manley Ventilator](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2044.1995.tb04517.x), our design is powered principally by gas pressure (from standard hospital wall oxygen and air flow meters) and gravity. The design intends to be make as frugal use of the potentially limited oxygen supply as possible, and to use standard anaesthetic equipment and easily sourced materials wherever possible.
 
-In the first prototype we use a standard anaesthetic bag (essentially a thick-walled balloon) for our bellows. In the second we use a piston beloows made from two cylinders and a glove to act as the seal.
+In the first prototype we use a standard anaesthetic bag (essentially a thick-walled balloon) for our bellows. In the second we use a piston belows made from two cylinders and a glove to act as the seal.
 
 Three simple valves control the flow of gases. These can be industrial solenoid valves designed for frequent cycling, or a simple 3D printed cam that depresses a lever to seal off silicone tubes. The minimum (PEEP) and maximum (inspiratory pressure) is set but adjusting the height of tubes in a column of water. The control system can be a simple industrial 24V relay with a PLC, or for the second prototype, a simple electric motor with a power requirement less than 1W.
 
-Prevention of potential health care infection is obviously paramount so we have sought to isolate the operator from aersolization by sealing and scavenging exhaled gases from valves where possible. A negative pressure valve has been added to prevent negative pressure pulmonary oedema.
+Prevention of potential health care infection is obviously paramount so we have sought to isolate the operator from aerosolization by sealing and scavenging exhaled gases from valves where possible. A negative pressure valve has been added to prevent negative pressure pulmonary oedema.
 
 ### 1) Hinge Bellows, Anaesthetic Bag, 24DCV Industrial Solenoid Valves
 ![Hinge & Solenoid vent](images/hinge_bellows_solenoids_v0.1.png)
