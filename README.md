@@ -27,7 +27,7 @@ That is why we are designing this ventilator.
 * **Made from existing medical equipment and easily-sourced industrial equipment** - where possible
 
 ### Immediate Goal
-Provide a ventilator of last-possible-resort for hospitals that have been overwhelmed by the sheer number of COVID-19 patients that require life-saving ventilation.
+Provide a ventilator of last-resort for hospitals that have been overwhelmed by the sheer number of COVID-19 patients that require life-saving ventilation.
 
 ### Long term Goal
 Develop a ventilator that could be used in developing countries to help save lives.
