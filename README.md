@@ -42,9 +42,9 @@ Three simple valves control the flow of gases. These can be industrial solenoid 
 
 Prevention of potential health care infection is obviously paramount so we have sought to isolate the operator from aersolization by sealing and scavenging exhaled gases from valves where possible. A negative pressure valve has been added to prevent negative pressure pulmonary oedema.
 
-## 1) Hinge Bellows, Anaesthetic Bag, 24DCV Industrial Solenoid Valves
+### 1) Hinge Bellows, Anaesthetic Bag, 24DCV Industrial Solenoid Valves
 ![Hinge & Solenoid vent](images/hinge_bellows_solenoids_v0.1.png)
-## 2) Piston Bellows, 3D Printed Valves with Cam
+### 2) Piston Bellows, 3D Printed Valves with Cam
 ![Piston Bellows vent](images/piston_bellows.png)
 
 ## Images
