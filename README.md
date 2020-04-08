@@ -46,7 +46,7 @@ Develop a ventilator that could be used in developing countries to help save liv
 
 ## 2) Piston Bellows, 3D Printed Valves with Cam
 ![Piston Bellows vent](images/piston_bellows.png)
-![Piston Bellows](images/piston_bellows_still.jpeg)
+![Piston Bellows](images/piston_bellows_still600.jpeg)
 
 ## Team
 
