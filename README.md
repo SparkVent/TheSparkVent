@@ -1,6 +1,8 @@
 # The Spark Vent
 
-The Spark Vent is an open-source ventilator design from a group of friends mostly from [Sparkhaus Studio](https://sparkhaus.studio) Makerspace in Newcastle, NSW, Australia. Our team is a mix of doctors, engineers, mechanics, and designers all working with one intent – to help. [Contact](mailto:info@sparkvent.org)
+The Spark Vent is an open-source ventilator design from a group of friends mostly from [Sparkhaus Studio](https://sparkhaus.studio) Makerspace in Newcastle, NSW, Australia. Our team is a mix of doctors, engineers, mechanics, and designers all working with one intent – to help.
+
+[Contact](mailto:info@sparkvent.org)
 
    ![Solenoid vent](images/three_valve200.jpeg) ![Pete, Hamish and Benny](images/crew200.jpeg)  ![Basic overview](images/basic_overview200.jpeg)
 
