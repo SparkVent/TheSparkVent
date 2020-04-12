@@ -60,7 +60,7 @@ Prevention of potential health care infection is obviously paramount so we have 
 
 ![Piston Bellows](images/piston_bellows_still600.jpeg) Rolling sock piston bellows
 ![Cam Valve](images/cam_valve400.jpeg) Cam valve, lever squishes silicone tubing
-[SparkVent2 YouTube walk through](https://www.youtube.com/watch?v=2wGbHndPFvM) with help from the lovely peeps at [Softy's](https://www.facebook.com/softysclubhouse/).
+[SparkVent2 YouTube walk through](https://www.youtube.com/watch?v=2wGbHndPFvM) with help from the lovely peeps at Softy's.
 
 ## Schematics
 1. [Hinge Bellows schematic pdf](Schematics/PDF/Ventilator_Schematic.pdf)
