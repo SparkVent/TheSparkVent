@@ -75,7 +75,7 @@ The main component of the valves here is some silicone tube approximately 14mm O
 
 This thing is simple pinch tube air valve system run off a cam for an experimental Covid-19 ventilator (named Spark Vent 2).
 
-The files for the 3D Printed parts can be found in the Directory [3D_Print_Files_for_Cam_Valves](3D_Print_Files_for_Cam_Valves).
+The files for the 3D Printed parts can be found in the Directory [3D_Print_Files_for_Cam_Valves](3D_Print_Files_for_Cam_Valves) or from [Thingiverse](https://www.thingiverse.com/thing:4276756).
 
 Tips:
 
