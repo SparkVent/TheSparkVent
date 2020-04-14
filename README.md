@@ -4,7 +4,7 @@
 
 [Contact](mailto:info@sparkvent.org)
 
-   ![Solenoid vent](images/three_valve200.jpeg) ![Pete, Hamish and Benny](images/crew200.jpeg)  ![Basic overview](images/basic_overview200.jpeg)
+   ![Solenoid vent](images/three_valve200.jpeg) ![Pete, Hamish and Benny](images/crew200.jpeg)  ![Basic overview](images/sparkvent2_200.jpeg)
 
 ### The 11th Person
 
