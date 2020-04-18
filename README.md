@@ -54,6 +54,7 @@ Prevention of potential health care infection is obviously paramount so we have 
 ![Bucket side](images/bucket_side200.jpg)
 ![Bucket lid off](images/bucket_lid_off200.jpeg)
 ![Bucket top](images/bucket_top200.jpg)
+![Hinged bellows and bucket diagrams](images/Hinge_Bellows_and_Bucket_Plans.pdf)
 
 
 ### 2) SparkVent2: Piston Bellows, 3D Printed Valves with Cam
@@ -106,13 +107,6 @@ Tips:
 ![Measure Pinch Gap](images/Measure_Pinch_Gap.png)
 ![Cam Washer](images/Cam_Washer.JPG)
 ![Spark Vent Mark 2](images/SparkVent2.JPG)
-
-
-
-
-
-
-
 
 
 
