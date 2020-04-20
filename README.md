@@ -45,6 +45,9 @@ Prevention of potential health care infection is obviously paramount so we have 
 ### 1) SparkVent1: Hinge Bellows, Anaesthetic Bag, 24DCV Industrial Solenoid Valves
 ![Hinge & Solenoid vent](images/hinge_bellows_solenoids_v0.1.png)
 ### 2) SparkVent2: Piston Bellows, 3D Printed Valves with Cam
+
+2020-04-20 Note: We have discovered a flaw with this design in that if there is a power failure during the expiratory phase or the expiratory valve jams closed, the patient will be able to breathe in but not out. We are working on a failsafe to overcome this problem.
+
 ![Piston Bellows vent](images/piston_bellows.png)
 
 ## Images
@@ -58,6 +61,8 @@ Prevention of potential health care infection is obviously paramount so we have 
 
 
 ### 2) SparkVent2: Piston Bellows, 3D Printed Valves with Cam
+
+2020-04-20 Note: We have discovered a flaw with this design in that if there is a power failure during the expiratory phase or the expiratory valve jams closed, the patient will be able to breathe in but not out. We are working on a failsafe to overcome this problem.
 
 ![Piston Bellows](images/piston_bellows_still600.jpeg) Rolling sock piston bellows
 ![Cam Valve](images/cam_valve400.jpeg) Cam valve, lever squishes silicone tubing
