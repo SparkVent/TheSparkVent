@@ -15,8 +15,8 @@ Our team has refined his original design to it's current version.
 
 We provide this design to anyone who wishes to use it, make it or improve it to help save lives during the COVID-19 pandemic.
 
-![Overview](images/sparkvent3.pdf)
-![Campbell SparkVent3 all components](images/Campbell_SparkVent_3_all_components.pdf)
+![Overview](images/sparkvent3.png)
+![Campbell SparkVent3 all components](images/Campbell_SparkVent_3_all_components.png)
 ![Sparkvent3 Simple Version Schematic](images/Sparkvent3_Simple_Version_Schematic.jpeg)
 
 ## Technical Details
