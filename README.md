@@ -1,21 +1,31 @@
-# The Spark Vent
+# The Campbell Spark Vent
 
-[The Spark Vent](https://www.youtube.com/watch?v=2_yuuIKCDco&feature=youtu.be) is an open-source ventilator design from a group of friends mostly from [Sparkhaus Studio](https://sparkhaus.studio) Makerspace in Newcastle, NSW, Australia. Our team is a mix of doctors, engineers, mechanics, and designers all working with one intent – to help.
+The Campbell Spark Vent is an open-source Venturi-based ventilator design for emergency use during the COVID-19 pandemic.
 
-[Contact: info@sparkvent.org](mailto:info@sparkvent.org)
+![Sparkvent3 Assembly](images/Sparkvent3_Assembly200.jpeg)
+![Sparkvent3 Section_Assembly](images/Sparkvent3_Section_Assembly200.jpeg)
+![Solenoid Flow Valve 3 Assembly](images/Solenoid_Flow_Valve_3_Assembly200.jpeg)
+![Campbell SparkVent3 Venturi](images/Campbell_SparkVent_Venturi_Labelleled.png)
 
-   ![Solenoid vent](images/three_valve200.jpeg) ![Pete, Hamish and Benny](images/crew200.jpeg)  ![Basic overview](images/sparkvent2_200.jpeg)
+Our aim is to make the simplest, safest ventilator we can for the lowest cost and the easiest to manufacture.
 
-### The 11th Person
+[Dr Duncan Campbell](http://www.anzca.edu.au/about-anzca/history-and-heritage/anaesthesia-stories/dr-duncan-campbell), the inventor of the [Campbell Ventilator](https://journals.sagepub.com/doi/pdf/10.1177/0310057X1204000601), created the initial Venturi circuit design as a means to provide a simple and safe ventilator design for the COVID-19 pandemic. The Venturi eliminates the need for bellows and hence, radically simplifies the design, construction and operation of the ventilator.
 
-Imagine your local hospital has 10 ventilators, but because of the COVID-19 pandemic, all those ventilators have been taken. Each patient on a ventilator usually spends one to two weeks on the ventilator, so, as you can see, your hospital can run out of ventilators pretty quickly in the middle of a pandemic.
+Our team has refined his original design to it's current version.
 
-What happens if you need one of those life-saving ventilators?
+We provide this design to anyone who wishes to use it, make it or improve it to help save lives during the COVID-19 pandemic.
 
-What if ***you*** are the 11th person?
+![Overview](images/sparkvent3.pdf)
+![Campbell SparkVent3 all components](images/Campbell_SparkVent_3_all_components.pdf)
+![Sparkvent3 Simple Version Schematic](images/Sparkvent3_Simple_Version_Schematic.jpeg)
 
-That is why we are designing this ventilator.
+## Technical Details
 
+The operator sets respiratory rate and also the minute volume and oxygen concentration using two flow meters for oxygen and air. The energy to drive the ventilator comes from the potential energy stored in the pressured gas. The only moving part in the ventilator is the inspiratory valve that operates via a solenoid that compresses a silicon tube that carries the fresh gas flow. The energy consumption of the solenoid valve is very low at around 6W and could be run from a battery if needed. The inspiratory and PEEP pressures are delivered via the venturi. Inspiratory pressure can be set by increasing the fresh gas flow rate, PEEP is set mechanically by turning a screw that sets the minimum pressure in the system. Pressure is monitored using a simple water manometer. The venturi mechanism provides a physical fail-safe as if the pressure in the fresh gas flow is increased to 400kPa (typical hospital gas pressure), the pressure delivered by the venturi is only around 5kPa, (50cmH2O) and the rest of the pressure is dissipated to the exhaust, as the narrow throat of the venturi naturally limits the pressure delivered.
+
+The venturi must sit very close to the endotracheal tube to minimise dead space. The minimal dead space is necessary to minimise the time it takes for the system to reach it's target inspiratory pressure as ideally we would like a square wave pressure waveform.
+
+This design is deliberately 'bare bones'. Ideally it should be used in conjunction with an oxygen saturation probe and an end-tidal carbon dioxide monitor to ensure the patient is adequately ventilated. We are in the process of adding a pressure and flow sensors so we can add alarm systems to this design.
 
 ### Aims
 
@@ -32,108 +42,34 @@ Provide a ventilator of last-resort for hospitals that have been overwhelmed by 
 ### Long term Goal
 Develop a ventilator that could be used in developing countries to help save lives.
 
-## 2x Ventilator Prototypes, SparkVent1 & SparkVent2:
-
-Based loosely on the very elegant [Manley Ventilator](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2044.1995.tb04517.x), our design is powered principally by gas pressure (from standard hospital wall oxygen and air flow meters) and gravity. The design intends to be make as frugal use of the potentially limited oxygen supply as possible, and to use standard anaesthetic equipment and easily sourced materials wherever possible.
-
-In the first prototype we use a standard anaesthetic bag (essentially a thick-walled balloon) for our bellows. In the second we use a piston belows made from two cylinders and a glove to act as the seal.
-
-Three simple valves control the flow of gases. These can be industrial solenoid valves designed for frequent cycling, or a simple 3D printed cam that depresses a lever to seal off silicone tubes. The minimum (PEEP) and maximum (inspiratory pressure) is set but adjusting the height of tubes in a column of water. The control system can be a simple industrial 24V relay with a PLC, or for the second prototype, a simple electric motor with a power requirement less than 1W.
-
-Prevention of potential health care infection is obviously paramount so we have sought to isolate the operator from aerosolization by sealing and scavenging exhaled gases from valves where possible. A negative pressure valve has been added to prevent negative pressure pulmonary oedema.
-
-### 1) SparkVent1: Hinge Bellows, Anaesthetic Bag, 24DCV Industrial Solenoid Valves
-![Hinge & Solenoid vent](images/hinge_bellows_solenoids_v0.1.png)
-### 2) SparkVent2: Piston Bellows, 3D Printed Valves with Cam
-
-2020-04-20 Note: We have discovered a flaw with this design in that if there is a power failure during the expiratory phase or the expiratory valve jams closed, the patient will be able to breathe in but not out. We are working on a failsafe to overcome this problem.
-
-![Piston Bellows vent](images/piston_bellows.png)
-
-## Images
-### 1) SparkVent1: Hinge Bellows, Anaesthetic Bag, 24DCV Industrial Solenoid Valves Images
-![Basic overview](images/basic_overview400.jpeg) Basic design overview.
-![valve upgrade](images/three_valve400.jpeg) Upgraded the valves to industrial grade.
-![Bucket side](images/bucket_side200.jpg)
-![Bucket lid off](images/bucket_lid_off200.jpeg)
-![Bucket top](images/bucket_top200.jpg)
-![Hinged bellows and bucket diagrams](images/Hinge_Bellows_and_Bucket_Plans.pdf)
-
-
-### 2) SparkVent2: Piston Bellows, 3D Printed Valves with Cam
-
-2020-04-20 Note: We have discovered a flaw with this design in that if there is a power failure during the expiratory phase or the expiratory valve jams closed, the patient will be able to breathe in but not out. We are working on a failsafe to overcome this problem.
-
-![Piston Bellows](images/piston_bellows_still600.jpeg) Rolling sock piston bellows
-![Cam Valve](images/cam_valve400.jpeg) Cam valve, lever squishes silicone tubing
-[SparkVent2 YouTube walk through](https://www.youtube.com/watch?v=2wGbHndPFvM) with help from the lovely peeps at Softy's.
-
-## Schematics
-1. [Hinge Bellows schematic pdf](Schematics/PDF/Ventilator_Schematic.pdf)
-2. [Hinge Bellows dwg](Schematics/DWG/Ventilator_V3_Schematic.dwg)
-
-## 3D Printed Parts for the Cam Valves
-
-Greetings! I'm Jamie, a mechanical engineer working with a team of engineers and doctors on a simple Covid-19 Ventilator, based in Newcastle, Australia.
-
-The intent of this ventilator is to get it as simple as possible without the need to purchase expensive items such as solenoid vavles and electronics.
-
-The main component of the valves here is some silicone tube approximately 14mm OD and 2.6mm wall thickness. When pinched with some verniers I cannot blow through this tube for 4.2mm or less. I have used 3.5mm in the design so there is some room for component wear and deflection.
-
-This thing is simple pinch tube air valve system run off a cam for an experimental Covid-19 ventilator (named Spark Vent 2).
-
-The files for the 3D Printed parts can be found in the Directory [3D_Print_Files_for_Cam_Valves](3D_Print_Files_for_Cam_Valves) or from [Thingiverse](https://www.thingiverse.com/thing:4276756).
-
-Tips:
-
-1. Do not run a PLA Cam against the PLA followers. The friction is very high.
-2. So far ABS for the Cam and PLA for the followers is fine but ABS for the follower also is likely to be fine (not yet tested). One reason we are shying away from using PLA for the followers is if it is left in a hot environment under load it could deform and not properly function.
-3. When assembling the cam and bearings do not tighten it up too much. Over compression of the cam print will cause deformation of the print and the bearing will no longer be concentric and have a wobble. This bearing wobble will require a greater un-even torque to turn the shaft. I can turn M8 bolt thread with my fingers. I have supplied two stl files for the camshaft. One with a smaller bore so the M8 bolt can be rotated into the print. With some epoxy or appropriate glue on the thread will most certainly help. Try not to get glue in the bearings!
-4. I have been printing solid just to be safe.
-5. The followers are tapered in width. You need to lay it flat on one of its side faces when printing.
-6. This mechanism is designed to be screwed to a solid structure. The picture shows it screwed to a piece of ply. Don't use ply on your ventilator! It cannot be cleaned. On the machine shown in the videos I used a piece of a 25mm thick kitchen cutting board made from HDPE.
-7. A simple 5mm rod has been used for a pin for the followers. An M6 bolt may be used but you will need to drill out the prints. An M6 is not as good if you have to quickly pull out the followers while the machine is operating. To straighten 5mm rod i hold one end in the vice and turn the other with a drill.
-8. In the design i have separated the bottom pinch point as a separate part. I have supplied 3 different prints, 3.5 being the standard. When you are happy the cam valves are working properly don't forget to glue you selected bottom pinch in place.
-9. Lightly sanding the parts that pinch the silicon tube with wet and dry paper to make the smooth is also recommended. This will help the silicon tube last.
-
-###  Materials 3D Cam Valve
-
-* As shown in kit photo.
-![Kit photo](images/Kit.JPG)
-* I have included in the prints a pulley wheel just in case you cannot source a geared motor like the one I'm using (https://www.jaycar.com.au/36rpm-12vdc-reversible-gearhead-motor/p/YG2734). This geared motor has a 5mm shaft. I have drilled a hole in then end of the m8 bolt and tapped an m3 through the side of the hex head. The motor peaks at 0.15amps so it is greatly over rated for the task. Running continuous for 10-20 days straight is another matter!
-* M8 bolt minimum 100mm long without the pulley. Minimum 125mm long with the pulley.
-* Skateboard bearings used (608 - 8mm ID, 22mm OD, 7mm wide).
-![Solid Works Assembly](images/Solidworks_Assembly.png)
-![Assembly photo](images/Assembly_Photo.JPG)
-![Assembly mounted on the machine](images/On_the_machine.JPG)
-![Cura Base](images/Cura_Base.png)
-![Cura Bearing Caps](images/Cura_Bearing_Caps.png)
-![Cura Cam](images/Cura_Cam.png)
-![Measure Pinch Gap](images/Measure_Pinch_Gap.png)
-![Cam Washer](images/Cam_Washer.JPG)
-![Spark Vent Mark 2](images/SparkVent2.JPG)
-
-
-
-## Parts List
-[Parts list](Parts_List/Ventilator_Parts.xlsx)
-
-
+### Testing
+We have performed bench testing of the pressure, flow and volume characteristics  on a test-lung in a hospital biomedical workshop (Graphs below). We are currently performing reliability testing of the solenoid 3D-printed valve. Next phase we will be adding alarms and usability testing.
+![pressure graph](images/pressure_sv3.jpeg)
+![flow graph](images/flow_sv3.jpeg)
+![volume graph](images/volume_sv3.jpeg)
 
 ## Team
 
 * Dr Hamish Meares, Anaesthetic Doctor/Engineer
+* Dr Duncan Campbell, Anaesthetic Doctor (retired) /Inventor of the Campbell Ventilator
 * Benjamin Brice, Industrial Designer
 * Graham Brice, Biomedical Engineer
 * Pete Micallef, CNC Tech & Design, Regal Machinery Services
 * Jamie Oorschot, Mechanical Engineer
 * Jeremy Funke, Electrical Engineer
-* Lena Hackworth, Robotics Engineer
 * Ray Aunei Mose, Biomedical Engineer
 * Peter Humble, IT / Web designer
 * With some much appreciated mechanical design help from the University of Newcastle’s Discipline of Mechanical Engineering
 
-* And the biggest thank you goes to all our support crews at home, going the extra mile so we can work on this project
+
+## Much Appreciated Support
+
+* [Hall & Wilcox Lawyers](https://hallandwilcox.com.au)
+* Dr Carl Hughes, Anaesthetic Doctor & GP
+* Dr David Campbell, Anaesthetic Doctor
+* Dr Keith Streatfield, Anaesthetic Doctor
+* Dr Steve Pickering, Anaesthetic Doctor
+
 
 ## Disclaimer
 THE SPARK VENT HAS NOT BEEN TESTED FOR SAFETY AND ITS SAFETY AND PERFORMANCE HAS NOT BEEN EVALUATED OR CONFIRMED. IT SHOULD ONLY BE CONSIDERED FOR USE AS AN ABSOLUTE LAST-RESORT OPTION IN A LIFE-THREATENING EMERGENCY SITUATION. THIS VIDEO IS PROVIDED FOR EDUCATIONAL AND INFORMATIVE PURPOSES DURING A GLOBAL HEALTH EMERGENCY FOR THE CORONA VIRUS PANDEMIC. WE HAVE SOUGHT TO FOLLOW THE UK AND AUSTRALIAN GUIDELINES (TGA) FOR AN EMERGENCY VENTILATOR DESIGN FOR THE PANDEMIC BUT HAVE DEVIATED SIGNIFICANTLY WITH OUR CHOICE IN MATERIALS AND THE ABSENCE OF ANY ALARMS.
